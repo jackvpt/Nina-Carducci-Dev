@@ -110,6 +110,8 @@ nav a {
 	justify-content: center;
 }
 
+
+
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
 	color: #fff;
@@ -118,7 +120,8 @@ nav a {
 }
 
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
 }
 
 .item-column {
