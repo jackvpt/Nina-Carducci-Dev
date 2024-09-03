@@ -269,6 +269,84 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+/* =========================================== */
+/* FOOTER */
+/* =========================================== */
+
+footer {
+	background-color: #222;
+	color: #999;
+	padding: 10px 0;
+}
+
+.contact-map {
+	max-width: 1280px;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 30px;
+}
+
+/* CONTACT DETAILS */
+.contact-details {
+	width: 45%;
+}
+
+/* ADDRESS */
+
+.contact-icon {
+	text-align: center;
+	align-content: center;
+	border: 2px solid #ccc;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+	margin-bottom: 20px;
+}
+
+
+.address {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+.contact-title {
+	font-size: 14px;
+	margin-bottom: 12px;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
+
+.contact-text {
+	font-size: 12px;
+	color: #bbb;
+}
+
+/* PHONE */
+.phone {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+}
+
+
+.google-map {
+	width: 45%;
+}
+
+.google-map iframe {
+	width: 100%;
+	height: 100%;
+}
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex: 2;
@@ -293,7 +371,6 @@ input[type="submit"] {
 @media all and (max-width: 1000px) {
 	#about {
 		flex-direction: column;
-
 	}
 
 	.picture {
@@ -401,4 +478,32 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+
+	/* =========================================== */
+	/* FOOTER */
+	/* =========================================== */
+
+	.address, .phone{
+		padding:10px 0;
+	}
+	.contact-map {
+		flex-direction: column;
+		padding:0;
+		gap:0;
+	}
+
+	.contact-details
+	 {
+		width: 100%;
+	}
+
+	.google-map
+	{
+		width:100%;
+		height: 250px;
+	}
+
+
+
+
 }
