@@ -106,7 +106,26 @@ nav a {
 	justify-content: center;
 }
 
+#carouselExampleIndicators .carousel-control-next-icon,
+#carouselExampleIndicators .carousel-control-prev-icon {
+  padding: 15px;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.4);
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.9));
+  border: 0.4rem solid transparent;
+}
 
+#carouselExampleIndicators .carousel-control-next .carousel-control-next-icon,
+#carouselExampleIndicators .carousel-control-prev .carousel-control-prev-icon {
+  transition: all 0.25s ease-in;
+}
+
+#carouselExampleIndicators .carousel-control-next:focus-within .carousel-control-next-icon,
+#carouselExampleIndicators .carousel-control-prev:focus-within .carousel-control-prev-icon {
+  transform: scale(1.8);
+  border: solid 2px #fff;
+  transition: all 0.25s ease-in;
+}
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
