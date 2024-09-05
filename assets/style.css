@@ -108,23 +108,20 @@ nav a {
 
 #carouselExampleIndicators .carousel-control-next-icon,
 #carouselExampleIndicators .carousel-control-prev-icon {
-  padding: 15px;
-  border-radius: 25px;
-  background-color: rgba(0, 0, 0, 0.4);
-  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.9));
-  border: 0.4rem solid transparent;
+	padding: 15px;
+	border-radius: 25px;
+	background-color: rgba(0, 0, 0, 0.4);
+	filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.9));
+	border: 0.4rem solid transparent;
 }
 
 #carouselExampleIndicators .carousel-control-next .carousel-control-next-icon,
 #carouselExampleIndicators .carousel-control-prev .carousel-control-prev-icon {
-  transition: all 0.25s ease-in;
+	transition: all 0.25s ease-in;
 }
 
-#carouselExampleIndicators .carousel-control-next:focus-within .carousel-control-next-icon,
-#carouselExampleIndicators .carousel-control-prev:focus-within .carousel-control-prev-icon {
-  transform: scale(1.8);
-  border: solid 2px #fff;
-  transition: all 0.25s ease-in;
+#carouselExampleIndicators span {
+	color: black;
 }
 
 .nav-pills .nav-link.active,
@@ -160,6 +157,7 @@ nav a {
 	max-height: 450px;
 	object-fit: cover;
 	padding: .5em;
+	cursor: pointer;
 }
 
 .mg-prev,
@@ -298,8 +296,8 @@ footer {
 	padding: 10px 0;
 }
 
-.contact-map {
-	max-width: 1280px;
+.contact-details {
+	max-width: 800px;
 	margin: auto;
 	display: flex;
 	flex-direction: row;
@@ -307,10 +305,7 @@ footer {
 	gap: 30px;
 }
 
-/* CONTACT DETAILS */
-.contact-details {
-	width: 45%;
-}
+
 
 /* ADDRESS */
 
@@ -326,6 +321,7 @@ footer {
 
 
 .address {
+	width: 50%;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
@@ -348,6 +344,7 @@ footer {
 
 /* PHONE */
 .phone {
+	width: 50%;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
@@ -356,15 +353,6 @@ footer {
 	text-align: center;
 }
 
-
-.google-map {
-	width: 45%;
-}
-
-.google-map iframe {
-	width: 100%;
-	height: 100%;
-}
 
 @media all and (max-width: 1180px) {
 	.picture {
@@ -502,25 +490,21 @@ footer {
 	/* FOOTER */
 	/* =========================================== */
 
-	.address, .phone{
-		padding:10px 0;
+	.address,
+	.phone {
+		padding: 10px 0;
 	}
-	.contact-map {
+
+	.contact-details {
 		flex-direction: column;
-		padding:0;
-		gap:0;
+		padding: 0;
+		gap: 0;
 	}
 
-	.contact-details
-	 {
-		width: 100%;
-	}
+.address, .phone{
+	width:100%
+}
 
-	.google-map
-	{
-		width:100%;
-		height: 250px;
-	}
 
 
 
