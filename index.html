@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="./assets/style.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="icon" type="image/x-icon" href="/assets/images/icon_camera.png">
 	<link
 		href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
 		rel="stylesheet">
@@ -23,7 +24,7 @@
 	<script src="./assets/maugallery.min.js"></script>
 	<script src="./assets/scripts.js"></script>
 
-	<title>Nina Carducci - Photographe professionelle à Bordeaux - Tous clichés</title>
+	<title>Nina Carducci - Photographe professionnelle à Bordeaux - Tous clichés</title>
 
 	<!-- ======================= -->
 	<!-- Schema.org -->
@@ -74,12 +75,12 @@
 		content="Nina Carducci - Photographe professionnelle à Bordeaux - Couvre de nombreux événements: mariages, concerts, festivités, entreprises, portraits">
 	<meta name="robots" content="index, follow">
 	<meta name="language" content="fr-FR">
-	
+
 	<!-- Opengraph (Facebook, LinkedIn) meta properties -->
 	<meta property="og:site_name" content="Nina Carducci - Photographe professionnelle">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://jackvpt.github.io/Nina-Carducci-Dev/">
-	<meta property="og:title" content="Nina Carducci - Photographe professionelle à Bordeaux - Tous clichés">
+	<meta property="og:title" content="Nina Carducci - Photographe professionnelle à Bordeaux - Tous clichés">
 	<meta property="og:description"
 		content="Nina Carducci - Photographe professionnelle à Bordeaux - Couvre de nombreux événements: mariages, concerts, festivités, entreprises, portraits">
 	<meta property="og:image"
@@ -88,16 +89,18 @@
 	<!-- Twitter meta properties -->
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@compteTwitter"> <!-- A DEFINIR -->
-	<meta name="twitter:title" content="Nina Carducci - Photographe professionelle à Bordeaux - Tous clichés">
+	<meta name="twitter:title" content="Nina Carducci - Photographe professionnelle à Bordeaux - Tous clichés">
 	<meta name="twitter:description"
 		content="Nina Carducci - Photographe professionnelle à Bordeaux - Couvre de nombreux événements: mariages, concerts, festivités, entreprises, portraits">
 	<meta name="twitter:image:src"
-		content="https://jackvpt.github.io/Nina-Carducci-Dev/assets/images/portrait_nina_carducci.jpg"> <!-- A DEFINIR -->
+		content="https://jackvpt.github.io/Nina-Carducci-Dev/assets/images/portrait_nina_carducci.jpg">
+	<!-- A DEFINIR -->
 	<meta name="twitter:url" content=""> <!-- A DEFINIR -->
 
 	<!-- Google+ meta properties -->
 	<meta itemprop="name" content="Nina Carducci Photographe Professionnelle" />
-	<meta itemprop="description" content="Nina Carducci - Photographe professionnelle à Bordeaux - Couvre de nombreux événements: mariages, concerts, festivités, entreprises, portraits" />
+	<meta itemprop="description"
+		content="Nina Carducci - Photographe professionnelle à Bordeaux - Couvre de nombreux événements: mariages, concerts, festivités, entreprises, portraits" />
 	<meta itemprop="image"
 		content="https://www.skyminds.net/les-balises-meta-indispensables-pour-les-reseaux-sociaux-facebook-twitter-google-pinterest/" />
 </head>
@@ -107,7 +110,13 @@
 	<!-- HEADER -->
 	<!-- ======================= -->
 	<header>
-		<h1>Nina Carducci</h1>
+		<div class="header-title">
+			<div class="header-name">
+				<img src="assets/images/icon_camera.png" alt="icone appareil photo">
+				<h1>Nina Carducci</h1>
+			</div>
+			<h2>Photographe professionnelle</h2>
+		</div>
 		<nav>
 			<ul>
 				<li><a href="#about">À propos</a></li>
@@ -202,30 +211,31 @@
 				<div class="gallery" style="display: none">
 					<img data-gallery-tag="Concert" class="gallery-item"
 						src="./assets/images/gallery/concerts/concert_lights_aaron-paul.webp"
-						alt="foule en concert sous les projecteurs">
+						alt="foule en concert sous les projecteurs" loading="lazy">
 					<img data-gallery-tag="Entreprises" class="gallery-item"
 						src="./assets/images/gallery/entreprise/business_man_suit_ali-morshedlou.webp"
-						alt="homme d'affaires en costume">
+						alt="homme d'affaires en costume" loading="lazy">
 					<img data-gallery-tag="Entreprises" class="gallery-item"
 						src="./assets/images/gallery/entreprise/meeting_women_smiling_jason-goodman.webp"
-						alt="femme sourit pendant réunion de travail">
+						alt="femme sourit pendant réunion de travail" loading="lazy">
 					<img data-gallery-tag="Mariages" class="gallery-item"
 						src="./assets/images/gallery/mariage/wedding_touching_fingers_hannah-busing.webp"
-						alt="doigts qui s'effleurent">
+						alt="doigts qui s'effleurent" loading="lazy">
 					<img data-gallery-tag="Portrait" class="gallery-item"
-						src="./assets/images/gallery/portraits/thinking_man_ade-tunji.webp" alt="homme en réflexion">
+						src="./assets/images/gallery/portraits/thinking_man_ade-tunji.webp" alt="homme en réflexion"
+						loading="lazy">
 					<img data-gallery-tag="Mariages" class="gallery-item"
 						src="./assets/images/gallery/mariage/wedding_couple_jakob-owens.webp"
-						alt="jeunes mariés en costume se tenant par la main">
+						alt="jeunes mariés en costume se tenant par la main" loading="lazy">
 					<img data-gallery-tag="Portrait" class="gallery-item"
 						src="./assets/images/gallery/portraits/serious_woman_glasses_nino-van-prattenburg.webp"
-						alt="femme à lunette sérieuse">
+						alt="femme à lunette sérieuse" loading="lazy">
 					<img data-gallery-tag="Concert" class="gallery-item"
 						src="./assets/images/gallery/concerts/concert_singer_smoke_austin-neill.webp"
-						alt="chanteur sur scène devant écran de fumée multicolore">
+						alt="chanteur sur scène devant écran de fumée multicolore" loading="lazy">
 					<img data-gallery-tag="Entreprises" class="gallery-item"
 						src="./assets/images/gallery/entreprise/woman_smiling_laptop_mateus-campos-felipe.webp"
-						alt="femme souriante devant son ordinateur portable">
+						alt="femme souriante devant son ordinateur portable" loading="lazy">
 				</div>
 			</div>
 
@@ -322,7 +332,7 @@
 					</form>
 				</div>
 				<div class="picture right">
-					<img src="./assets/images/appareil_photo.webp" alt="appareil photo">
+					<img src="./assets/images/appareil_photo.webp" alt="appareil photo" loading="lazy">
 				</div>
 			</div>
 		</section>
