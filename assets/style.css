@@ -125,8 +125,8 @@ nav a {
 }
 
 .about-me-title {
-	margin-top: 1em;
-	margin-bottom: 60px;
+	/* margin-top: 1em; */
+	margin-bottom: 20px;
 	font-size: 30px;
 }
 
@@ -134,12 +134,14 @@ nav a {
 	font-family: 'Spectral';
 	font-weight: 800;
 	font-style: italic;
-	width: 60%;
+	text-align: justify;
+	/* width: 60%; */
 }
 
 #about-me p {
-	width: 80%;
+	/* width: 80%; */
 	font-size: 14px;
+	text-align: justify;
 }
 
 .title {
@@ -442,11 +444,12 @@ footer {
 	
 	.picture {
 		flex: 2;
+		max-width: 450px;
 	}
 
 	#about,
 	#contact .container {
-		align-items: center;
+		/* align-items: center; */
 	}
 
 	.about-me__title {
@@ -466,6 +469,12 @@ footer {
 @media all and (max-width: 1000px) {
 	#about {
 		flex-direction: column;
+		align-items: center;
+		padding-inline: 50px;
+	}
+
+	.about-me-title {
+		margin-top:20px;
 	}
 
 	.picture {
