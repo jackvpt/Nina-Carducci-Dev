@@ -113,7 +113,8 @@ nav a {
 }
 
 .picture img {
-	width: 100%;
+	width: 412px;
+	height: 412px;
 
 }
 
@@ -315,6 +316,11 @@ nav a {
 	z-index: -1;
 }
 
+.picture.right img {
+	width: 320px;
+	height: 320px;
+}
+
 .form-container {
 	flex: 2;
 
@@ -389,7 +395,7 @@ footer {
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 	text-align: center;
 }
@@ -412,7 +418,7 @@ footer {
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-start;
 	align-items: center;
 	text-align: center;
 }
