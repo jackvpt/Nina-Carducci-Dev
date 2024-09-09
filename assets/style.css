@@ -175,7 +175,7 @@ nav a {
 
 .carousel-item img {
 	width: 1400px;
-	height: 650px;
+	height: 100%;
 }
 
 .nav-pills .nav-link.active,
