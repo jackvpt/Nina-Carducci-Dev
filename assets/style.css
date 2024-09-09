@@ -55,7 +55,7 @@ header {
 
 .header-name img {
 	width: 40px;
-	height:40px;
+	height: 40px;
 	margin-right: 15px;
 }
 
@@ -173,6 +173,11 @@ nav a {
 	color: black;
 }
 
+.carousel-item img {
+	width: 1400px;
+	height: 650px;
+}
+
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
 	color: black;
@@ -195,7 +200,6 @@ nav a {
 	content: "";
 	display: block;
 	padding-bottom: 100%;
-
 }
 
 /* =========================================== */
