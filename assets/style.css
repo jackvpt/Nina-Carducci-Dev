@@ -173,11 +173,6 @@ nav a {
 	color: black;
 }
 
-.carousel-item img {
-	width: 1400px;
-	height: 100%;
-}
-
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
 	color: black;
